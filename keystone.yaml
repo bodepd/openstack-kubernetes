@@ -15,9 +15,16 @@ spec:
           value: keystone
         - name: MYSQL_DATABASE
           value: keystone
+        - name: ADMIN_TOKEN
+          value: token123
       ports:
         - containerPort: 5000
           name: keystone-public
           containerPort: 35357
           name: keystone-admin
       imagePullPolicy: Always
+    - image: memcached
+      name: memcached
+      ports:
+        - containerPort: 11211
+          name: memcached
