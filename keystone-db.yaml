@@ -1,3 +1,6 @@
+#
+# maria db instance with keystone db creatd
+#
 apiVersion: v1
 kind: Pod
 metadata:

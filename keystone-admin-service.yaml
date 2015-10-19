@@ -1,3 +1,6 @@
+#
+# service endpoint for keystone admin api
+#
 apiVersion: v1
 kind: Service
 metadata:

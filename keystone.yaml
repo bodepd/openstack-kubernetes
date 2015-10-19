@@ -1,3 +1,6 @@
+# definition of keystone and memcache instance
+# TODO this has been moved to the template of the
+# keystone replication controller
 apiVersion: v1
 kind: Pod
 metadata:

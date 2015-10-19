@@ -1,3 +1,6 @@
+#
+# replication controller that sets up scalable keystone
+#
 apiVersion: v1
 kind: ReplicationController
 metadata:
